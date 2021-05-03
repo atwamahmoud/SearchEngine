@@ -1,5 +1,5 @@
 # SearchEngine
-> Credits to Marwan Kefah for this Readme [Marwan Kefah's Repo](https://github.com/marwankefah/SearchEngine)
+> Credits to [Marwan Kefah](https://github.com/marwankefah/SearchEngine) for this Readme
 # Table of Contents
 
 Objectives
