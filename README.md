@@ -1,5 +1,10 @@
 # SearchEngine
 > Credits to [Marwan Kefah](https://github.com/marwankefah/SearchEngine) for this Readme
+
+### Landing HomePage
+![HomePage](https://github.com/marwankefah/SearchEngine/blob/master/homePage.PNG)
+### Sample Image Search
+![ImageSearch](https://github.com/marwankefah/SearchEngine/blob/master/ImageSearch.PNG)
 # Table of Contents
 
 Objectives
@@ -72,16 +77,14 @@ Your relevance score has to include the following aside from **word similarity**
 
 - **Geographic location of the user:** increasing the score of web pages related to the user&#39;s location. A web page(s) can be related to certain location(s) in many ways (server location, company&#39;s location, visitors&#39; location, URL extension, etc). It will be sufficient to consider one of these ways to score the geographic relevance of web page. For example, a web page having the .uk extension is more relevant to users in UK, a web page having the .cn extension is more relevant to users in China, and soon.
 
-- **How recent is the web page?** A web page&#39;s score increases because it was published recently.
-It should be noted that some websites do not mention the webpage&#39;s creation date in the HTML.
+- **How recent is the web page?** A web page&#39;s score increases because it was published recently. Itshouldbenotedthatsomewebsitesdonotmentionthewebpage&#39;screationdateintheHTML.
 
-.
 
 ### Trends:
 
 Your query processor should keep track of search trends. We need to view the trends about the **most**** searched persons**in each country.
 
-### Voice Recognition Search:
+### Voice RecognitionSearch:
 
 The user can use a voice query instead of a typed query. NLP Libraries and APIs (such as the Stanford CoreNLPlibrary) to recognize and understand a voice query, transform it into textual query and perform the search accordingly were used.
 
