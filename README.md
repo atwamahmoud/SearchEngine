@@ -61,8 +61,8 @@ Popularity is a measure for the importance of any web page regardless the reques
 
 results)
 
-- suggestion mechanism that stores queries submitted by all users. As the user types a newquery, your web application should suggest popular completions to that query using some interactive mechanism such asAJAX.
-- Thewebinterfaceshoulddisplaysuggestionswhiletheuseristypingtheirsearchquery.Forexample, if the user typed &#39;World&#39;, then a list of suggestions should be displayed **&#39;World Cup&#39;** , **&#39;World Health Organization&#39;** , **&#39;World War&#39;** , **&#39;World Meter&#39;** , ..etc.
+- suggestion mechanism that stores queries submitted by all users. As the user types a newquery, your web application should suggest popular completions to that query using some interactive mechanism such as AJAX.
+- The web interface should display suggestions while the user is typing their search query.For example, if the user typed &#39;World&#39;, then a list of suggestions should be displayed **&#39;World Cup&#39;** , **&#39;World Health Organization&#39;** , **&#39;World War&#39;** , **&#39;World Meter&#39;** , ..etc.
 
 # Additional Features
 
@@ -77,7 +77,7 @@ Your relevance score has to include the following aside from **word similarity**
 
 - **Geographic location of the user:** increasing the score of web pages related to the user&#39;s location. A web page(s) can be related to certain location(s) in many ways (server location, company&#39;s location, visitors&#39; location, URL extension, etc). It will be sufficient to consider one of these ways to score the geographic relevance of web page. For example, a web page having the .uk extension is more relevant to users in UK, a web page having the .cn extension is more relevant to users in China, and soon.
 
-- **How recent is the web page?** A web page&#39;s score increases because it was published recently. Itshouldbenotedthatsomewebsitesdonotmentionthewebpage&#39;screationdateintheHTML.
+- **How recent is the web page?** A web page&#39;s score increases because it was published recently. It should be noted that some websites do not mention the webpage&#39;s creation date in the HTML.
 
 
 ### Trends:
